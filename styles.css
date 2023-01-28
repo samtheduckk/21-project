@@ -1,3 +1,67 @@
-html { 
+* { 
     box-sizing:border-box;
+    padding:0;
+    margin: 0 auto;
+    
 }
+
+html {
+    background-color: #734362;
+    color: #F2F2F0;
+}
+
+body {
+    text-align: center;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.alignRow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 33%;
+}
+
+.alignColumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 150px;
+    height: fit-content;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 25px;
+    background-color:#621F38;
+}
+
+/* Color Theme Swatches in Hex */
+.vinho-1-hex { color: #520B29; }
+.vinho-2-hex { color: #621F38; }
+.vinho-3-hex { color: #640026; }
+.vinho-4-hex { color: #734362; }
+.vinho-5-hex { color: #F2F2F0; }
+
+/* Color Theme Swatches in RGBA */
+.vinho-1-rgba { color: rgba(82, 11, 40, 1); }
+.vinho-2-rgba { color: rgba(98, 31, 56, 1); }
+.vinho-3-rgba { color: rgba(100, 0, 38, 1); }
+.vinho-4-rgba { color: rgba(114, 66, 98, 1); }
+.vinho-5-rgba { color: rgba(242, 242, 239, 1); }
+
+/* Color Theme Swatches in HSLA */
+.vinho-1-hsla { color: hsla(0, 76, 18, 1); }
+.vinho-2-hsla { color: hsla(0, 51, 25, 1); }
+.vinho-3-hsla { color: hsla(0, 100, 19, 1); }
+.vinho-4-hsla { color: hsla(0, 26, 35, 1); }
+.vinho-5-hsla { color: hsla(0, 7, 94, 1); }
