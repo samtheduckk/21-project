@@ -16,6 +16,16 @@ body {
     text-align: center;
 }
 
+a {
+    color: pink;
+    transition: ease 200ms;
+}
+
+a:hover {
+    color: #F2F2F0;
+    transform: scale(1.2);
+}
+
 #landingPage {
     display: flex;
     flex-flow: row-reverse wrap;
@@ -58,6 +68,13 @@ li {
     flex-direction: column;
     gap: 10vh;
     flex: 70%;
+}
+
+.headerContainer {
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #621F38;
 }
 
 .alignRow {
@@ -105,6 +122,7 @@ button, input{
     border-radius: 10px;
     border-width: 0px;
     border-color: #F2F2F0;
+    cursor:pointer;
 }
 
 input::placeholder {
