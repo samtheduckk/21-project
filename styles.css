@@ -8,6 +8,7 @@
 html {
     background-color: #734362;
     color: #F2F2F0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -77,6 +78,18 @@ form {
     gap: 10px;
     margin-bottom: 25px;
     background-color:#621F38;
+}
+
+button {
+    background-color:#520B29;
+    color: #F2F2F0;
+}
+
+#blackjackGame {
+    background-color: #F2F2F0;
+    color: #621F38;
+    font-weight: 800;
+    height: 100vh;
 }
 
 /* Color Theme Swatches in Hex */
