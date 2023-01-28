@@ -8,7 +8,6 @@
 html {
     background-color: #734362;
     color: #F2F2F0;
-    scroll-behavior: smooth;
 }
 
 body {
@@ -28,7 +27,7 @@ aside {
     flex: 30%;
     height: 100vh;
     background-color: #520B29;
-    transition:cubic-bezier(0.445, 0.05, 0.55, 0.95) 1000ms;
+    transition:linear 1000ms;
 }
 
 .hideAside {
