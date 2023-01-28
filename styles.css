@@ -2,11 +2,12 @@
     box-sizing:border-box;
     padding:0;
     margin: 0 auto;
+    font-family: 'Roboto Mono', monospace;
     
 }
 
 html {
-    background-color: #734362;
+    background-color: #140b11;
     color: #F2F2F0;
     scroll-behavior: smooth;
 }
@@ -21,6 +22,12 @@ body {
     flex-direction: row-reverse;
     align-items: stretch;
     flex-wrap: wrap;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/vd-photography-F20QHa8D_hw-unsplash.jpg);
+    background-position: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    filter:drop-shadow(50%);
 }
 
 aside { 
@@ -78,11 +85,30 @@ form {
     gap: 10px;
     margin-bottom: 25px;
     background-color:#621F38;
+    color: #F2F2F0;
+    border-radius: 10px;
+    border: none;
 }
 
-button, input[type="submit"] {
+#sign-up {
+    display: none;
+}
+
+#sign-in {
+    display: inherit;
+}
+
+button, input{
     background-color:#520B29;
     color: #F2F2F0;
+    padding: 10px;
+    border-radius: 10px;
+    border-width: 0px;
+    border-color: #F2F2F0;
+}
+
+input::placeholder {
+    color:#734362
 }
 
 
