@@ -32,7 +32,7 @@ a:hover {
     flex-direction: row-reverse;
     align-items: stretch;
     flex-wrap: wrap;
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/vd-photography-F20QHa8D_hw-unsplash.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assets/vd-photography-F20QHa8D_hw-unsplash.jpg);
     background-position: no-repeat;
     background-size:cover;
     background-position: center;
