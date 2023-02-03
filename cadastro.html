@@ -21,22 +21,15 @@
             </nav>
         </header>
         <main class="alignColumn">
-            <form id="sign-in" method="POST" action="login.php">
+            <form action="cadastro.php" method="POST">
+                <h1>SignUp</h1>
             <label for="email"></label>
-            <input id="email" placeholder="Enter your email" type="email">
-            <label for="password"></label>
-            <input id="password" placeholder="Enter your password" type="password">
-            <input id="submit" type="submit">
-<<<<<<< HEAD
-            <p>No account? Sign up below!</p>
-            <input id="SignUp" type="button" value="Sign Up">
-=======
-            <p>No account? Sign-up below!</p>
-            <a href="cadastro.html"><input id="SignUp" type="button" value="Sign Up"></a>
->>>>>>> 2384e23a2eb1527a0a80d0b75025d19c78955881
+            <input name="username" placeholder="Username" type="text">
+            <input name="email" placeholder="Email" type="email">
+            <input name="password" placeholder="Password" type="password">
+            <input name="repeatpassword" placeholder="Repeat Password" type="password">
+            <input type="submit" value="Complete SignUp">
             </form>
-
-            <button>Go Anonimous</button>
         </main>
         </section>
         <aside>
@@ -46,10 +39,10 @@
                 <li></li>
             </ul>
             <button onclick="openMenu()" id="openClose">--></button>
-            
+
         </aside>
         <footer>
-            <p>@Cumright</p>
+
         </footer>
 </section>
 <section id="blackjackGame">
